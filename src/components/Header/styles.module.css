@@ -1,0 +1,19 @@
+.navegation {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navegation a {
+  transition: 400ms;
+}
+
+.navegation a:hover {
+  opacity: 0.6;
+}
+
+.navegation img {
+  max-width: 100px;
+}

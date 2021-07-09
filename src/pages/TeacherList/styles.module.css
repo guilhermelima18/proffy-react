@@ -1,0 +1,48 @@
+.pageStudy {
+  background-color: var(--color-primary);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+form {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  padding: 20px 0;
+  position: relative;
+  bottom: -50px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.inputGroup label {
+  margin-bottom: 10px;
+  color: var(--color-line-in-white);
+}
+
+.inputGroup input, select {
+  height: 40px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.inputGroup select {
+  margin: 0 5px;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 0;
+}

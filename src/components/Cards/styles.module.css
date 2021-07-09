@@ -1,0 +1,81 @@
+.card {
+  background-color: var(--color-box-base);
+  margin: 50px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  max-width: 80px;
+  border-radius: 50%;
+}
+
+header .teacher {
+  margin-left: 20px;
+}
+
+header .teacher h4 {
+  font-size: 1.2rem;
+  color: var(--color-text-title);
+}
+
+header .teacher span {
+  font-size: 0.9rem;
+  color: var(--color-text-complement);
+}
+
+.about {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.about p {
+  color: var(--color-text-complement);
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.contact h5 {
+  color: var(--color-text-complement);
+}
+
+.contact h5 span {
+  color: var(--color-text-title);
+  margin-left: 10px;
+}
+
+.contact a {
+  background-color: var(--color-secundary);
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--color-button-text);
+  transition: 400ms;
+}
+
+.contact a:hover {
+  background-color: var(--color-secundary-dark);
+}
+
+.contact a img {
+  margin-right: 10px;
+}

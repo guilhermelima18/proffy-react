@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logoImg from '../../images/logo.svg';
 import landingImg from '../../images/landing.svg';
@@ -18,14 +19,14 @@ export default function Landing() {
           estudos online.
         </h4>
         <div className={styles.mainButtons}>
-          <a href="/">
+          <Link to="/study">
             <img src={studyIcon} alt="Ícone estudar" />
             Estudar
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/give-classes">
             <img src={giveClassesIcon} alt="Ícone Dar aulas" />
             Dar aulas
-          </a>
+          </Link>
         </div>
       </main>
       <div className={styles.landingBackground}>
