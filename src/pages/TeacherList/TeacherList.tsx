@@ -11,18 +11,18 @@ export default function TeacherList() {
         <Header />
         <form action="">
           <div className={styles.inputGroup}>
-            <label htmlFor="">Matéria</label>
-            <input type="text" />
+            <label htmlFor="subject">Matéria</label>
+            <input type="text" name="subject" />
           </div>
           <div className={styles.inputGroup}>
-            <label htmlFor="">Dia da semana</label>
-            <select name="" id="">
+            <label htmlFor="week-day">Dia da semana</label>
+            <select name="week-day">
               <option value="">Segunda</option>
             </select>
           </div>
           <div className={styles.inputGroup}>
-            <label htmlFor="">Horário</label>
-            <input type="text" />
+            <label htmlFor="hours">Horário</label>
+            <input type="text" name="hours" />
           </div>
         </form>
       </div>

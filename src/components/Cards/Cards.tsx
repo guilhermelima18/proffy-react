@@ -25,10 +25,10 @@ export default function Cards() {
           Preço/hora:
           <span>R$ 20,00</span>
         </h5>
-        <a href="">
+        <button type="button">
           <img src={whatsappIcon} alt="Whatsapp" />
           Entrar em contato
-        </a>
+        </button>
       </div>
     </div>
   );

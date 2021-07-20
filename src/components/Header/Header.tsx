@@ -16,7 +16,7 @@ export default function Header() {
         </Link>
         <img src={logoImg} alt="Logo Proffy" />
       </div>
-      <Title title="Estes são os proffys disponíveis."/>
+      <Title title="Estes são os proffys disponíveis." />
     </>
   );
 };

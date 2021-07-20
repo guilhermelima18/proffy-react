@@ -74,3 +74,49 @@ main .mainButtons a img {
   text-align: right;
   color: var(--color-text-complement);
 }
+
+@media (max-width: 1100px) {
+  .pageLanding {
+    flex-direction: column-reverse;
+    padding: 20px 0;
+    height: auto;
+  }
+
+  .pageLanding main {
+    width: 90%;
+    align-items: center;
+    padding: 5px 0;
+    margin: 30px 0 20px;
+  }
+
+  .pageLanding main img {
+    max-width: 250px;
+    margin: 10px 0;
+  }
+
+  .pageLanding main h4 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .pageLanding main .mainButtons {
+    flex-direction: column;
+  }
+
+  main .mainButtons a {
+    margin: 10px 0;
+  }
+
+  main .mainButtons a + a {
+    margin-left: 0;
+  }
+
+  .pageLanding .landingBackground {
+    width: 90%;
+    align-items: center;
+  }
+
+  .pageLanding .landingBackground img {
+    max-width: 600px;
+  }
+}
